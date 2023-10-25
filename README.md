@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/EsfxF8C.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To install and enable Internet Information Services (IIS) on Windows with CGI and Common HTTP Features, follow these steps. Open the "Server Manager" on your Windows machine, navigate to "Manage" and select "Add Roles and Features." In the "Add Roles and Features Wizard," proceed to the "Server Roles" section, and check "Web Server (IIS)." Within the "Web Server (IIS)" role, under "Application Development," select both "CGI" and "Common HTTP Features." Then, proceed to the "Web Server" section, and ensure that "IIS Management Console" is selected under "Web Management Tools." Complete the installation process, and IIS will be installed with CGI, Common HTTP Features, and the IIS Management Console.
 </p>
 <br />
 
