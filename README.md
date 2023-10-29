@@ -40,7 +40,9 @@ To install and enable Internet Information Services (IIS) on Windows with CGI an
 </p>
 <p>
 <img src="https://i.imgur.com/VNNZfq8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<p>
+Install MySQL and C++ Redistributable to start the next process. Then, open Internet Information Services (IIS) as an administrator on your Windows server. Once in IIS, register PHP to ensure compatibility. Following this, reload IIS by stopping and starting the server. Proceed to install osTicket version 1.15.8 by first downloading it from the Installation Files Folder. After downloading, extract the contents and copy the "upload" folder to the directory c:\inetpub\wwwroot. Within this directory, rename the "upload" folder to "osTicket." This sequence of steps ensures the proper configuration of IIS with PHP support and sets up the necessary environment for hosting osTicket version 1.15.8 on your Windows server.
 </p>
 <br />
 
@@ -56,6 +58,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <p>
  <img src="https://i.imgur.com/Q0PKFiZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 </p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+There is some extentions that are not enabled so we need to enable those.  Next we need to assign the permisssions and finish setting up osTicket through the browser.
 </p>
 <br />
